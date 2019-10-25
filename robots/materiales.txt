@@ -1,0 +1,20 @@
+robot
+piezas impresa en 3d
+https://www.thingiverse.com/thing:1800795
+Arduino pro mini 5v
+2 motores N2
+2 ruedas que encajen en el N2
+driver para 2 motores
+bateria
+
+
+
+mando
+pieza impresa en 3d
+https://www.thingiverse.com/thing:3791343
+Arduino pro mini 5v
+un boton on/off
+un joystick
+un pulsador 
+bateria pequeña
+modulo de carga de bateria
