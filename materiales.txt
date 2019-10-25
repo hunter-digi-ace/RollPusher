@@ -1,20 +1,20 @@
 robot
 piezas impresa en 3d							https://www.thingiverse.com/thing:1800795
 Arduino pro mini 5v								https://www.ebay.es/itm/PRO-MINI-ATMega328-16MHZ-5V-Bootloader-Pin-Header-Compatible-100-ARDUINO-B0019/201500735857?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
-2 motores N2									https://www.amazon.es/gp/product/B07K518W8T/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
-2 ruedas que encajen en el N2					https://es.aliexpress.com/item/32836546572.html?spm=a2g0s.9042311.0.0.274263c0d1bFZ1
+2 motores N2									    https://www.amazon.es/gp/product/B07K518W8T/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+2 ruedas que encajen en el N2			https://es.aliexpress.com/item/32836546572.html?spm=a2g0s.9042311.0.0.274263c0d1bFZ1
 driver para 2 motores							https://www.ebay.es/itm/Dual-Motor-Driver-1A-TB6612FNG-Microcontroller-Better-than-L298N-/222574834174?hash=item33d27e71fe
-receptor inalámbrico 433 MHZ 					https://www.ebay.es/itm/Arduino-Rf-m%C3%B3dulo-transmisor-y-receptor-inal%C3%A1mbrico-433-MHZ-electronica/264391847894?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
-bateria											https://hobbyking.com/es_es/zippy-flightmax-350mah-2s-20c.html
+receptor inalámbrico 433 MHZ 			https://www.ebay.es/itm/Arduino-Rf-m%C3%B3dulo-transmisor-y-receptor-inal%C3%A1mbrico-433-MHZ-electronica/264391847894?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
+bateria											      https://hobbyking.com/es_es/zippy-flightmax-350mah-2s-20c.html
 
 
 
 mando
 pieza impresa en 3d								https://www.thingiverse.com/thing:3791343
 Arduino pro mini 5v
-un boton on/off									https://www.ebay.es/itm/10pcs-Small-Mini-Black-On-Off-Boat-Rocker-Switch-Rectangle-10x15mm-SPST-2PI-J0J0/232350807508?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
-un joystick										https://www.ebay.es/itm/Modulo-Joystick-KY-023-PS2-Dual-axis-XY-dos-ejes-Arduino-Electronica-DIY/322903760245?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
+un boton on/off									  https://www.ebay.es/itm/10pcs-Small-Mini-Black-On-Off-Boat-Rocker-Switch-Rectangle-10x15mm-SPST-2PI-J0J0/232350807508?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
+un joystick										    https://www.ebay.es/itm/Modulo-Joystick-KY-023-PS2-Dual-axis-XY-dos-ejes-Arduino-Electronica-DIY/322903760245?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
 transmisor inalámbrico 433 MHZ
-un pulsador 									https://www.amazon.es/gp/product/B07QGJSTV5/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
+un pulsador 									    https://www.amazon.es/gp/product/B07QGJSTV5/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
 bateria pequeña									3.7V 150 mah Lipo
-modulo de carga de bateria						https://www.ebay.es/itm/Micro-USB-TP4056-Lithium-Battery-Charging-Board-Power-Charger-Module-TE585-/163915860599?var=&hash=item262a258a77
+modulo de carga de bateria				https://www.ebay.es/itm/Micro-USB-TP4056-Lithium-Battery-Charging-Board-Power-Charger-Module-TE585-/163915860599?var=&hash=item262a258a77
