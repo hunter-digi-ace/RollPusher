@@ -10,11 +10,11 @@ bateria                 https://hobbyking.com/es_es/zippy-flightmax-350mah-2s-20
 
 
 mando
-pieza impresa en 3d								https://www.thingiverse.com/thing:3791343
+pieza impresa en 3d     https://www.thingiverse.com/thing:3791343
 Arduino pro mini 5v
-un boton on/off									  https://www.ebay.es/itm/10pcs-Small-Mini-Black-On-Off-Boat-Rocker-Switch-Rectangle-10x15mm-SPST-2PI-J0J0/232350807508?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
-un joystick										    https://www.ebay.es/itm/Modulo-Joystick-KY-023-PS2-Dual-axis-XY-dos-ejes-Arduino-Electronica-DIY/322903760245?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
+un boton on/off         https://www.ebay.es/itm/10pcs-Small-Mini-Black-On-Off-Boat-Rocker-Switch-Rectangle-10x15mm-SPST-2PI-J0J0/232350807508?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
+un joystick             https://www.ebay.es/itm/Modulo-Joystick-KY-023-PS2-Dual-axis-XY-dos-ejes-Arduino-Electronica-DIY/322903760245?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
 transmisor inalámbrico 433 MHZ
-un pulsador 									    https://www.amazon.es/gp/product/B07QGJSTV5/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
-bateria pequeña									3.7V 150 mah Lipo
-modulo de carga de bateria				https://www.ebay.es/itm/Micro-USB-TP4056-Lithium-Battery-Charging-Board-Power-Charger-Module-TE585-/163915860599?var=&hash=item262a258a77
+un pulsador             https://www.amazon.es/gp/product/B07QGJSTV5/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
+bateria pequeña 3.7V 150 mah Lipo
+modulo de carga de bateria      https://www.ebay.es/itm/Micro-USB-TP4056-Lithium-Battery-Charging-Board-Power-Charger-Module-TE585-/163915860599?var=&hash=item262a258a77
