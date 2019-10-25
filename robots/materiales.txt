@@ -5,6 +5,7 @@ Arduino pro mini 5v
 2 motores N2
 2 ruedas que encajen en el N2
 driver para 2 motores
+receptor inalámbrico 433 MHZ
 bateria
 
 
@@ -15,6 +16,7 @@ https://www.thingiverse.com/thing:3791343
 Arduino pro mini 5v
 un boton on/off
 un joystick
+transmisor inalámbrico 433 MHZ
 un pulsador 
 bateria pequeña
 modulo de carga de bateria
