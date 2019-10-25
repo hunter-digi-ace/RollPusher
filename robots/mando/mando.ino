@@ -1,7 +1,10 @@
-#include <nRF24L01.h>
-#include "printf.h"
-#include <RF24.h>
-#include <RF24_config.h>
+#include <VirtualWire.h>
+ 
+const int dataPin = 9;
+const int ledPin = 13;
+
+
+
 //Pines del joystick.
 int potPinUp = A2;
 int potPinSide = A3;
@@ -35,19 +38,14 @@ int pwmMRbackwards;
 int pwmWeapon;
 
 //radio setups - iniciamos la radio
-RF24 radio(9,10);
-const uint64_t pipe = 0xE800F0EEE1LL;  //importante tener el mismo en los dos codigos
 
-uint8_t msg[5];
+uint8_t msg[4];
 
 
 
 void setup() {
-  Serial.begin(9600);
- 
-  radio.begin();
-  radio.openWritingPipe(pipe); 
-  
+    vw_setup(2000);
+    vw_set_tx_pin(dataPin);
 }
 
 void loop() {
@@ -130,16 +128,26 @@ void loop() {
   msg[1]=pwmMLbackwards;
   msg[2]=pwmMRforwards;
   msg[3]=pwmMRbackwards;
-  radio.write(msg,5);
+  
+  digitalWrite(ledPin, true);
+  vw_send((uint8_t *)msg, sizeof(msg));
+  vw_wait_tx();
+  digitalWrite(ledPin, false);
+
+  Serial.print("LF: ");
   Serial.print(pwmMLforwards);
   Serial.print(", ");
+  Serial.print("LB: ");
   Serial.print(pwmMLbackwards);
   Serial.print(", ");
+  Serial.print("RF: ");
   Serial.print(pwmMRforwards);
   Serial.print(", ");
-  Serial.print(msg[3]);
+  Serial.print("RB: ");
+  Serial.print(pwmMRbackwards);
+  Serial.print("\n");
 
   //Para no llenar tan rapido el log
-  delay(10);
+  //delay(20);
 
 }
