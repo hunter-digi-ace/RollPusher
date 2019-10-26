@@ -82,22 +82,26 @@ void loop() {
       
     }else{
       enableMotors();
-      if((dataALF>0&&dataALB==0)||(dataBRF>0&&dataBRB==0)){
+      if((dataALF>0&&dataALB==0)&&(dataBRF>0&&dataBRB==0)){
         //vamos adelante
         moveMotorForward(pinMotorA, dataALF);
         moveMotorForward(pinMotorB, dataBRF);
-      }else if((dataALF==0&&dataALB>0)||(dataBRF==0&&dataBRB>0)){
+        
+      }else if((dataALF==0&&dataALB>0)&&(dataBRF==0&&dataBRB>0)){
         //vamos atras
         moveMotorBackward(pinMotorA, dataALB);
         moveMotorBackward(pinMotorB, dataBRB);
-      }else if((dataALF>0&&dataALB==0)||(dataBRF==0&&dataBRB>0)){
+        
+      }else if((dataALF>0&&dataALB==0)&&(dataBRF==0&&dataBRB>0)){
         //vamos derecha
         moveMotorForward(pinMotorA, dataALF);
         moveMotorBackward(pinMotorB, dataBRB);
-      }else if((dataALF==0&&dataALB>0)||(dataBRF>0&&dataBRB==0)){
+        
+      }else if((dataALF==0&&dataALB>0)&&(dataBRF>0&&dataBRB==0)){
         //vamos izquierda
-        moveMotorBackward(pinMotorA, dataALF);
+        moveMotorBackward(pinMotorA, dataALB);
         moveMotorForward(pinMotorB, dataBRF);
+        
       }      
     }
     
